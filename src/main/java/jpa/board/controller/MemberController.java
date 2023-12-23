@@ -8,7 +8,7 @@ public class MemberController {
 
 
     @GetMapping("/login")
-    public String longHome() {
+    public String loginHome() {
         return "member/login";
 
     }

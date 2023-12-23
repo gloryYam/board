@@ -37,7 +37,7 @@ public class InitDB {
             if(memberList.size() == 0){
                 Member member = Member.builder()
                         .username("관리자")
-                        .phoneNum("010-1234-4567")
+                        .phoneNum("010-3333-3333")
                         .age(29)
                         .authority(Authority.ROLE_ADMIN)
                         .build();
